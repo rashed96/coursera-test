@@ -1,0 +1,130 @@
+/*      Default Layout: 1331px. 
+        Gutters: 24px.
+        Outer margins: 48px.
+        Leftover space for scrollbars @1024px: 32px.
+------------------------------------------------------------------------------- */
+
+
+/*      Tablet Layout: 768px.
+        Gutters: 24px.
+        Outer margins: 28px.
+        Inherits styles from: Default Layout.
+-----------------------------------------------------------------*/
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+#box{
+width: 46%;
+margin-top: 2%;
+height: 97%;
+margin-left: 0%;
+}
+
+#box1{
+width: 95%;
+margin-top: 2%;
+height: 97%;
+margin-left: 0%;
+}
+
+.project_box h2{
+width:20%;
+}
+
+
+#box h2{
+width: 30%;
+height: 10%;
+margin-left: 70%;
+}
+
+#box h3{
+width: 30%;
+height: 10%;
+margin-left: 70%;
+}
+
+#box1 h4{
+width: 30%;
+height: 10%;
+margin-left: 70%;
+padding-top: 3px;
+}
+
+#box p{
+width:94%;
+}
+
+#box1 p{
+width:94%;
+}
+
+}
+
+
+/*      Wide Mobile Layout: 480px.
+        Gutters: 24px.
+        Outer margins: 22px.
+        Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+
+#box{
+width:54%;
+margin-top: 20px;
+}
+
+#box1{
+width: 54%;
+height: 336px;
+margin-right: 3.33%;
+background: #999999;
+float: left;
+border: 1px solid black;
+margin-top: 3%;
+}
+
+
+
+
+.project_box h2{
+width:31%;
+margin-left: 19%;
+margin-top: 36px;
+}
+
+
+#box h2{
+width: 43%;
+height: 10%;
+margin-left: 57%;
+}
+
+#box h3{
+width: 43%;
+height: 10%;
+margin-left: 57%;
+}
+
+#box h4{
+width: 43%;
+height: 10%;
+margin-left: 57%;
+padding-top: 5px;
+}
+
+#box p{
+width:94%;
+}
+
+
+}
+
+
+
+                
